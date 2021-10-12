@@ -71,6 +71,10 @@ public class RopeSettings : MonoBehaviour
                     tempObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
                 }
             }
+            else if (i >= count)
+            {
+                // Spawn wrecking ball on the end of rope/chain
+            }
             else
             {
                 //otherwise apply the character joint to connect with ther next closest rigidbody
