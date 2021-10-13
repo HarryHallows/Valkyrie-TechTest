@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Challenges/RopeChallenge.unity
+    path: Assets/Scenes/Challenges/RopeChallenge/RopeChallenge.unity
     guid: 01278ccc3bb752c47aa0624ada05134c
   - enabled: 1
     path: Assets/Scenes/Challenges/FitnessChallenge.unity
     guid: 12731f4a49c178f4fa3e4986f474fe46
   - enabled: 1
-    path: Assets/Scenes/Challenges/CubeChallenge.unity
+    path: Assets/Scenes/Challenges/WaveChallenge/CubeChallenge.unity
     guid: 0adbc911426eec14cba617c6793fbc97
   m_configObjects: {}
