@@ -13,6 +13,7 @@ public class CubeMovement : MonoBehaviour
 
     void Update()
     {
-        transform.position = startPosition + new Vector3(0.0f, Mathf.Sin(Time.time), 0.0f);
+        transform.position += Vector3.forward * Time.deltaTime;
+        transform.position = startPosition + new Vector3(transform.position.x, Mathf.Sin(Time.time), transform.position.z);
     }
 }
