@@ -43,5 +43,11 @@ public class GameManager : MonoBehaviour
 
     #endregion
 
+    #region ReturnToMenu
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(sceneName = "Menu");
+    }
+    #endregion
     #endregion
 }
